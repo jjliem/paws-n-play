@@ -6,11 +6,13 @@ export default function Main(props) {
   return (
     <main className="block col-2">
       <h2>Products</h2>
-      <div className="row">
-        {products.map((product) => (
-          <Product key={products.id} product={product} onAdd={onAdd}></Product>
-        ))}
-      </div>
+      
+        <div className="product-container">
+          {products.map((product) => (
+            <Product key={products.id} product={product} onAdd={onAdd}></Product>
+          ))}
+        </div>
+      
     </main>
   )
 }
