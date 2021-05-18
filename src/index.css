@@ -3,10 +3,15 @@
 /*--------------------------------------------------*/
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   margin: 0.5rem 0;
 }
 
@@ -20,6 +25,7 @@ h2 {
 
 h3 {
   font-size: 1rem;
+  font-weight: 400;
 }
 
 a {
@@ -27,12 +33,41 @@ a {
 }
 
 /*---------------------------------------------------- 
-# Header 
+# Row 
 /*--------------------------------------------------*/
 
 .row {
   display: flex;
   justify-content: space-between;
+}
+
+.row.center {
+  align-items: center;
+}
+
+/*---------------------------------------------------- 
+# Header 
+/*--------------------------------------------------*/
+
+#menu-outer {
+  background-color: pink;
+	height: 84px;
+	/* background: url(images/bar-bg.jpg) repeat-x; */
+}
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+}
+
+ul#horizontal-list li {
+		display: inline;
 }
 
 /*---------------------------------------------------- 
@@ -56,10 +91,6 @@ a {
   padding: 1rem;
   margin: 0.5rem;
   border-radius: 0.5rem;
-}
-
-.row.center {
-  align-items: center;
 }
 
 img.small {
@@ -114,4 +145,31 @@ button.badge {
 
 .text-right {
   text-align: right;
+}
+
+/*---------------------------------------------------- 
+# Links 
+/*--------------------------------------------------*/
+
+a.nav-link:link {
+  color: black;
+  text-decoration: none;
+}
+a.nav-link:visited {
+  color: black;
+  text-decoration: none;
+}
+a.nav-link:hover {
+  color: black;
+  text-decoration: underline;
+}
+a.nav-link:active {
+  color: #fb3f00;
+  text-decoration: none;
+}
+
+ul,
+li {
+  margin: 0px;
+  list-style-type: none;
 }
