@@ -6,9 +6,12 @@ import Cart from "./components/Cart";
 import data from "./data";
 import { useState } from "react";
 
+import "./components/FontAwesomeIcons";
+
 function App() {
   const { products } = data;
   const [cartItems, setCartItems] = useState([]);
+
   const onAdd = (product) => {
     const exist = cartItems.find((x) => x.id === product.id);
     if (exist) {
