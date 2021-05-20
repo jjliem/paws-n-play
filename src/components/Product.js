@@ -5,11 +5,11 @@ export default function Product(props) {
 
   return (
     <div className="product">
-      <img className="small" width="200rem" height="160" src={product.image} alt={product.name} />
+      <img className="small image" width="200rem" height="160" src={product.image} alt={product.name} />
       <h3>{product.name}</h3>
       <div>${product.price}</div>
-      <div>
-        <button onClick={()=>onAdd(product)}>Add to Cart</button>
+      <div className="middle">
+        <button className="hover-button" onClick={()=>onAdd(product)}>ADD TO CART</button>
       </div>
     </div>
   )

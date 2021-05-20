@@ -5,7 +5,7 @@ export default function Header(props) {
   return (
       <div className="header">
         <a href="#default" className="logo">Paws N Play</a>
-        <div className="header-center">
+        <div className="header-right">
           <a href="#home">Home</a>
           <a href="#shop">Shop</a>
           <a href="#sale">Sale</a>
@@ -13,9 +13,7 @@ export default function Header(props) {
           <a href="#blog">Blog</a>
           <a href="#about">About</a>
           <a href="#contact">Contact</a>
-        </div>
-        <div className="header-right">
-        <a href="#/cart" className="nav-link">
+          <a href="#/cart">
             My Cart{" "}
             {countCartItems ? (
               <button className="badge">{countCartItems}</button>
