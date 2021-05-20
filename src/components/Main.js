@@ -5,8 +5,6 @@ export default function Main(props) {
   const {products, onAdd} = props;
   return (
     <main className="block col-2">
-      <h2>Products</h2>
-      
         <div className="product-container">
           {products.map((product) => (
             <Product key={products.id} product={product} onAdd={onAdd}></Product>

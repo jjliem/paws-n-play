@@ -82,7 +82,7 @@ a {
 
 /* Style the active/current link*/
 .header a.active {
-  background-color: dodgerblue;
+  background-color: orange;
   color: white;
 }
 
@@ -225,3 +225,17 @@ button.badge {
   text-align: right;
 }
 
+/*---------------------------------------------------- 
+# Button 
+/*--------------------------------------------------*/
+
+.banner {
+  padding: 1rem;
+  text-align: center;
+  background-image: url("https://images.unsplash.com/photo-1597595735637-05a49627ee29?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2476&q=80");
+  background-position: center bottom -70px;
+  background-size: cover;
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+}

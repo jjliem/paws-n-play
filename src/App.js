@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import Banner from "./components/Banner";
 import Main from "./components/Main";
 import Cart from "./components/Cart";
 import data from "./data";
@@ -37,6 +38,7 @@ function App() {
   return (
     <div className="App">
       <Header countCartItems={cartItems.length}></Header>
+      <Banner></Banner>
       <div className="row">
         <Main onAdd={onAdd} products={products}></Main>
         <Cart onAdd={onAdd} onRemove={onRemove} cartItems={cartItems}></Cart>
