@@ -1,3 +1,4 @@
+import Shipping from "./components/Shipping";
 import Header from "./components/Header";
 import Banner from "./components/Banner";
 import Main from "./components/Main";
@@ -37,6 +38,7 @@ function App() {
 
   return (
     <div className="App">
+      <Shipping></Shipping>
       <Header countCartItems={cartItems.length}></Header>
       <Banner></Banner>
       <div className="row">

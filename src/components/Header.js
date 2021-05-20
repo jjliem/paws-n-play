@@ -3,7 +3,7 @@ import React from "react";
 export default function Header(props) {
   const { countCartItems } = props;
   return (
-      <div className="header">
+      <div className="sticky header">
         <a href="#default" className="logo">Paws N Play</a>
         <div className="header-right">
           <a href="#home">Home</a>
