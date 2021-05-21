@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Banner from "./components/Banner";
 import Main from "./components/Main";
 import Cart from "./components/Cart";
+import Footer from "./components/Footer";
 import data from "./data";
 import { useState } from "react";
 
@@ -48,6 +49,7 @@ function App() {
         <Main onAdd={onAdd} products={products}></Main>
         <Cart onAdd={onAdd} onRemove={onRemove} cartItems={cartItems}></Cart>
       </div>
+      <Footer></Footer>
     </div>
   );
 }

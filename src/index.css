@@ -63,7 +63,7 @@ a {
   text-align: center;
   padding: 12px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 25px;
   border-radius: 4px;
 }
@@ -248,13 +248,78 @@ button.badge {
 }
 
 /*---------------------------------------------------- 
-# Banner 
+# Shipping 
 /*--------------------------------------------------*/
 
+/* Add a black background color to the shipping banner */
 .shipping {
-  padding: 0.1rem;
-  text-align: center;
+  position: relative;
   background-color: #AADD77;
   color: darkgreen;
-  font-size: 1rem;
+  overflow: hidden;
+}
+
+/* Style the links inside the shipping banner */
+.shipping a {
+  float: left;
+  color: darkgreen;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+/* Change the color of links on hover */
+.shipping a:hover {
+  color: orange;
+}
+
+/* Centered section inside the shipping banner */
+.shipping-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Right-aligned section inside the shipping banner */
+.shipping-right {
+  float: right;
+}
+
+/* Responsive shipping banner - display links on top of each other instead of next to each other (for mobile devices) */
+@media screen and (max-width: 600px) {
+  .shipping a, .shipping-right {
+    float: none;
+    display: block;
+  }
+
+  .shipping-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}
+
+/*---------------------------------------------------- 
+# Footer 
+/*--------------------------------------------------*/
+
+.footer {
+  position: relative;
+  background-color: #AADD77;
+  color: darkgreen;
+  overflow: hidden;
+  text-align: center;
+}
+
+.footer-centered {
+  padding: 1rem;
+}
+
+.footer-centered a {
+  color: darkgreen;
+  font-size: 0.9rem;
 }

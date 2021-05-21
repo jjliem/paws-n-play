@@ -1,4 +1,6 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FaShoppingCart, FaUser } from 'react-icons/fa';
 
 export default function Header(props) {
   const { countCartItems } = props;
@@ -12,9 +14,10 @@ export default function Header(props) {
           <a href="#features">Features</a>
           <a href="#blog">Blog</a>
           <a href="#about">About</a>
-          <a href="#contact">Contact</a>
-          <a href="#/cart">
-            My Cart{" "}
+          <a href="#contact"><FaUser style={{fontSize: "1.4rem"}}/></a>
+          <a href="#cart">
+            <FaShoppingCart style={{fontSize: "1.4rem"}}/>
+            {" "}
             {countCartItems ? (
               <button className="badge">{countCartItems}</button>
             ) : (
