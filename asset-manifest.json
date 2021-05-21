@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/paws-n-play/static/css/main.fc4f308a.chunk.css",
+    "main.js": "/paws-n-play/static/js/main.b665a8e7.chunk.js",
+    "main.js.map": "/paws-n-play/static/js/main.b665a8e7.chunk.js.map",
+    "runtime-main.js": "/paws-n-play/static/js/runtime-main.5468c31b.js",
+    "runtime-main.js.map": "/paws-n-play/static/js/runtime-main.5468c31b.js.map",
+    "static/js/2.63be2302.chunk.js": "/paws-n-play/static/js/2.63be2302.chunk.js",
+    "static/js/2.63be2302.chunk.js.map": "/paws-n-play/static/js/2.63be2302.chunk.js.map",
+    "static/js/3.f6beea99.chunk.js": "/paws-n-play/static/js/3.f6beea99.chunk.js",
+    "static/js/3.f6beea99.chunk.js.map": "/paws-n-play/static/js/3.f6beea99.chunk.js.map",
+    "index.html": "/paws-n-play/index.html",
+    "static/css/main.fc4f308a.chunk.css.map": "/paws-n-play/static/css/main.fc4f308a.chunk.css.map",
+    "static/js/2.63be2302.chunk.js.LICENSE.txt": "/paws-n-play/static/js/2.63be2302.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5468c31b.js",
+    "static/js/2.63be2302.chunk.js",
+    "static/css/main.fc4f308a.chunk.css",
+    "static/js/main.b665a8e7.chunk.js"
+  ]
+}
