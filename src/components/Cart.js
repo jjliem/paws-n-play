@@ -4,7 +4,7 @@ export default function Cart(props) {
   const { cartItems, onAdd, onRemove } = props;
   const itemsPrice = cartItems.reduce((a, c) => a + c.price * c.qty, 0);
   const taxPrice = itemsPrice * 0.14;
-  const shippingPrice = itemsPrice > 75 ? 0 : 50;
+  const shippingPrice = itemsPrice > 50 ? 0 : 12;
   const totalPrice = itemsPrice + taxPrice + shippingPrice;
   return (
     <aside className="block col-1">
